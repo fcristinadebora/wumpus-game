@@ -17,7 +17,7 @@
             <img src="@/assets/img/gold.gif" alt="Ouro" style="width:100px">
         </td>
         <td>
-            <img src="@/assets/img/semflecha.png" alt="Ouro" style="height:100px" v-if="false">
+            <img src="@/assets/img/semflecha.png" alt="Ouro" style="height:100px">
             <img src="@/assets/img/comflecha.png" alt="Ouro" style="height:100px">
         </td>
         <td></td>

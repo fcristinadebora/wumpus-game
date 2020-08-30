@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <pagina></pagina>
+    <notifications group="foo" position="top left" />
   </div>
 </template>
 

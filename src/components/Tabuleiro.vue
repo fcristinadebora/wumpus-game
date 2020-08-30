@@ -113,6 +113,7 @@ export default {
       this.putGold();
       this.pontos = 0;
       this.temFlecha = true;
+      this.goldColleted = false;
     },
 
     getTabuleiro() {
@@ -411,9 +412,6 @@ export default {
             title: "Sua flecha não atingiu nada",
             text: "Você não tem mais nenhuma flecha disponível",
             icon: "info",
-          })
-          .then(() => {
-            this.pontos = this.pontos + 100;
           });
       }
 

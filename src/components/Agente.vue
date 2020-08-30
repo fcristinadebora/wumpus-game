@@ -116,18 +116,20 @@ export default {
         this.pegarOuro()
       }
 
-      if(event.keyCode === 87){
-        this.atirarFlecha('up')
-      }
-      if(event.keyCode === 65){
-        this.atirarFlecha('left')
-      }
-      if(event.keyCode === 83){
-        this.atirarFlecha('down')
-      }
-      if(event.keyCode === 68){
-        this.atirarFlecha('right')
-      }
+        if(this.temFlecha){
+            if(event.keyCode === 87){
+              this.atirarFlecha('up')
+            }
+            if(event.keyCode === 65){
+              this.atirarFlecha('left')
+            }
+            if(event.keyCode === 83){
+              this.atirarFlecha('down')
+            }
+            if(event.keyCode === 68){
+              this.atirarFlecha('right')
+            }
+        }
     },
   },
 };

@@ -12,18 +12,12 @@
             <b>Instruções:</b><br>
             <ol class="text-left pl-3">
               <li class="mb-2">Use as teclas de direção para mover seu personagem.</li>
-              <li class="mb-2">Pressione a tecla <b>S</b> para pegar o ouro na casa.</li>
-              <li class="mb-2">Se você sentir CHEIRO RUIM, tome cuidado! O wumpus está em uma das casas adjacentes. Se você passar pela casa onde o Wumpus está, será comido e perderá o jogo.</li>
-              <li class="mb-2">Se você sentir BRISA, tome cuidado! Há um buraco em uma das casas adjacentes. Se você passar pela casa onde há um buraco, perderá o jogo.</li>
-              <li class="mb-2">Você tem 1 flecha disponível para tentar matar o Wumpus:
-                <ol>
-                  <li>Pressione a tecla <b>A</b></li>
-                  <li>Pressione a <b>tecla de direção</b> para direcionar a mira</li>
-                  <li>Pressione novamente a tecla <b>A</b></li>
-                  
-                  <li>Para cancelar, pressione a tecla <b>C</b></li>
-                </ol>
-              </li>              
+              <li class="mb-2">A cada movimento, você perde 1 ponto</li>
+              <li class="mb-2">Pressione a tecla <b>ESPAÇO</b> para pegar o ouro na casa (ganha 200 pontos)</li>
+              <li class="mb-2">Se você sentir CHEIRO RUIM, tome cuidado! O wumpus está em uma das casas adjacentes. Se você passar pela casa onde o Wumpus está perderá 1000 pontos</li>
+              <li class="mb-2">Se você sentir BRISA, tome cuidado! Há um buraco em uma das casas adjacentes. Se você passar pela casa onde há um buraco, perderá 200 pontos</li>
+              <li class="mb-2">Você tem 1 flecha disponível para tentar matar o Wumpus (ganha 100 pontos): Pressione a tecla <b>W, A, S, ou D para atirá-la em uma direção</b></li>
+              <li class="mb-2">Seu objetivo é coletar o ouro e voltar para a posição inicial com a maior pontuação possível</li>
             </ol>
 
           </p>
